@@ -5,10 +5,9 @@ Machine-learning project for predicting daily PM2.5 air pollution from weather a
 ## Project Shape
 
 - `eda_cleaning.ipynb`: cleaning, leakage removal, train/validation/test exports
-- `sat_eng.ipynb`: latitude proxy from satellite solar-angle patterns
-- `relative_longitude_eng.ipynb`: relative longitude proxy from meteorological time-lag correlations
+- `location_feature_engineering.ipynb`: latitude and relative-longitude proxy engineering
 - `xgboost_rolling.ipynb`: final XGBoost pipeline with rolling features and residual correction
-- `random_forest.ipynb`: Random Forest model work from the team
+- `random_forest_baseline_not_final.ipynb`: Random Forest baseline/model comparison; not the final submitted model
 - `baseline_model.ipynb`: simple baseline experiments
 
 ## Final Approach
